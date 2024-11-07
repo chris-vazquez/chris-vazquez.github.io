@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*Nav Bar Editing*/
+
+#nav-bar {
+    top: 0;
+    z-index: 10;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar {
+    padding: 0;
+}
+
+.navbar-nav li {
+    padding: 0 10px;
+}
+
+.navbar-nav a:hover {
+    color: #4B9CD3;
+}
+
+/*Profile Picture*/
+#profile img{
+    height: 300px;
+    max-width: 300px;
+    padding-top: 30px;
+}
+
+/*Description*/
+
+h2{
+    text-align: center;
+    color: #4B9CD3 !important; 
+}
+
+#description {
+    padding-top: 30px;
+}
+
+/*Footer*/
+
+footer {
+    background-color: #13294B;
+    min-height: 100px;
+}
+
+footer a{
+    color: white;  
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+footer i{
+    padding-right: 10px;
+}
+
+#socials {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+#copyright, #nav-links {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
